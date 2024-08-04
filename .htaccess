@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^liferule34.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.liferule34.com$
+RewriteRule (.*)$ https://chineselearner.com/$1 [R=301,L]
